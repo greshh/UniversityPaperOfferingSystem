@@ -73,7 +73,6 @@ public class UniversityPaperOfferingSystem {
             }
         }
         // DISPLAYING INFO
-        displayInfo();
         System.out.println("------------------ Task 1 ------------------");
         System.out.println("School Full Name: " + school.getName());
         System.out.println();
@@ -136,14 +135,6 @@ public class UniversityPaperOfferingSystem {
         System.out.println("The lecturer of Auckland offering of 159234:");
         System.out.println("Lecturer's Name: " + paper[4].displayLecturer(1)); // paper[4] = 159234, index 1 = Auckland
         System.out.println("This lecturer is teaching " + paper[4].getLecturer(1).getpaperCount() + " paper(s)");
-        System.out.println();
-    }
-    
-    private static void displayInfo() {
-        System.out.println("Assignment 1, 159.234 Semester 1 2023");
-        System.out.println("Submitted by: Greshka Lao, ID: 22012395");
-        System.out.println("My Major at Massey: Computer Science");
-        System.out.println("**************************************");
         System.out.println();
     }
 }
